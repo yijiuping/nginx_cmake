@@ -1,5 +1,6 @@
 #!/usr/bin/env bash
-NGX_CMAKE_FILE=$NGX_OBJS/CMakeLists.txt
+#NGX_CMAKE_FILE=$NGX_OBJS/CMakeLists.txt
+NGX_CMAKE_FILE=CMakeLists.txt
 NGX_CMAKE_TMP=$NGX_OBJS/tmp
 
 #output includes
