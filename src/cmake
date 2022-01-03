@@ -25,7 +25,7 @@ cmake_ngx_src=`echo $cmake_ngx_src | sed -e "s/  *\([^ ][^ ]*\)/$ngx_regex_cont\
 cat << END                                    >> $NGX_CMAKE_TMP
 
 set(SOURCE_FILES
-    ngx_modules.c
+    objs/ngx_modules.c
     $cmake_ngx_src)
 
 END
